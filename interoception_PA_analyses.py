@@ -2,7 +2,6 @@
 Analysis Script: Associations Between Physical Activity and Interoception
 Paper: Associations Between Physical Activity Intensity and Experience, Self-Regulation, 
        and Self-Reported Interoceptive Accuracy and Attention
-Preprint: https://www.medrxiv.org/content/10.1101/2025.05.06.25326015v1
 
 This script examines associations between:
 1. Physical activity intensities (walking, moderate, vigorous)
@@ -11,6 +10,12 @@ This script examines associations between:
 4. Self-reported interoceptive accuracy (IAS) and attention (IATS)
 
 Analysis uses log-normalized regression analyses.
+
+Author: Jesper Mulder
+Institution: Leiden University Medical Center
+License: MIT
+Repository: https://github.com/JesperMulder/interoception-physical-activity
+Date: 2026
 """
 
 # =============================================================================
@@ -42,7 +47,7 @@ sns.set(style="whitegrid")
 # =============================================================================
 
 # Path to file
-file_path = 'data/your_dataset.sav'  # Updated to relative path
+file_path = # Update to your file path
 
 # Final columns used in analyses
 cols_to_keep = ['Persoon_ID', 'IPAQ_SportErvaring', 'Geslacht', 'Leeftijd',
