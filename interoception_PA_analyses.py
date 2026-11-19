@@ -3,7 +3,7 @@ Analysis Script: Associations Between Physical Activity and Interoception
 Paper: Associations Between Physical Activity Intensity and Experience, Self-Regulation,
        and Self-Reported Interoceptive Accuracy and Attention
        Mulder, Kiefte-de Jong, de Vries & Elferink-Gemser
-       Published 11-05-2026, https://doi.org/10.1080/1612197X.2026.2665662
+       International Journal of Sport and Exercise Psychology, published 11-05-2026, https://doi.org/10.1080/1612197X.2026.2665662
 
 This script examines associations between:
 1. Physical activity intensities (walking, moderate, vigorous)

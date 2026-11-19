@@ -9,7 +9,7 @@ Analysis code for the research paper: **"Associations Between Physical Activity 
 
 ## Publication Information
 
-**Publication:** https://doi.org/10.1080/1612197X.2026.2665662 (published 11-05-2026)
+**Publication:** https://doi.org/10.1080/1612197X.2026.2665662 (International Journal of Sport and Exercise Psychology, published 11-05-2026)
 
 **Authors:** J. Mulder, J.C. Kiefte-de Jong, J.D. de Vries, M.T. Elferink-Gemser
 
@@ -178,7 +178,7 @@ For data access requests or replication purposes, please contact the correspondi
 If you use this code in your research, please cite:
 
 ```
-Mulder, J., Kiefte-de Jong, J. C., de Vries, J. D., & Elferink-Gemser, M. T. (2026). Associations Between Physical Activity Intensity and Experience, Self-Regulation, and Self-Reported Interoceptive Accuracy and Attention. https://doi.org/10.1080/1612197X.2026.2665662
+Mulder, J., Kiefte-de Jong, J. C., de Vries, J. D., & Elferink-Gemser, M. T. (2026). Associations Between Physical Activity Intensity and Experience, Self-Regulation, and Self-Reported Interoceptive Accuracy and Attention. International Journal of Sport and Exercise Psychology. https://doi.org/10.1080/1612197X.2026.2665662
 ```
 
 GitHub's "Cite this repository" button uses `CITATION.cff`. An earlier preprint version is available at https://doi.org/10.1101/2025.05.06.25326015.
