@@ -1,7 +1,9 @@
 """
 Analysis Script: Associations Between Physical Activity and Interoception
-Paper: Associations Between Physical Activity Intensity and Experience, Self-Regulation, 
+Paper: Associations Between Physical Activity Intensity and Experience, Self-Regulation,
        and Self-Reported Interoceptive Accuracy and Attention
+       Mulder, Kiefte-de Jong, de Vries & Elferink-Gemser
+       Published 11-05-2026, https://doi.org/10.1080/1612197X.2026.2665662
 
 This script examines associations between:
 1. Physical activity intensities (walking, moderate, vigorous)
@@ -16,6 +18,9 @@ Institution: Leiden University Medical Center
 License: MIT
 Repository: https://github.com/JesperMulder/interoception-physical-activity
 Date: 2026
+
+Before running: set `file_path` below (DATA LOADING AND PREPROCESSING) to the
+location of your SPSS (.sav) file. Raw data are not part of this repository.
 """
 
 # =============================================================================

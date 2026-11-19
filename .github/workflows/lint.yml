@@ -1,0 +1,17 @@
+name: Lint
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  flake8:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install flake8
+      # Informational only: reports issues but never fails the build.
+      - run: flake8 interoception_PA_analyses.py --max-line-length=120 --exit-zero

@@ -1,0 +1,34 @@
+name: interoception-physical-activity
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+
+  # Core scientific stack
+  - numpy
+  - pandas
+  - scipy
+
+  # Statistics & modelling
+  - statsmodels
+  - scikit-learn
+
+  # Visualisation
+  - matplotlib
+  - seaborn
+
+  # Data I/O
+  - openpyxl
+  - xlsxwriter
+  - pyreadstat
+
+  # Notebook environment
+  - jupyterlab
+
+  - pip
+
+  - pip:
+      - miceforest
+      - arviz

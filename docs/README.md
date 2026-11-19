@@ -27,8 +27,10 @@ This documentation supplements the main analysis code and provides detailed info
 ## 📄 Key Documents
 
 ### Study Methodology
-For complete methodological details, refer to the published preprint:
-**https://www.medrxiv.org/content/10.1101/2025.05.06.25326015v1**
+For complete methodological details, refer to the published article:
+**https://doi.org/10.1080/1612197X.2026.2665662**
+
+An earlier version of the manuscript is available as a preprint: https://doi.org/10.1101/2025.05.06.25326015
 
 ### Variable Definitions
 
@@ -92,9 +94,9 @@ For complete methodological details, refer to the published preprint:
 ## 🛠️ Software and Reproducibility
 
 ### Python Environment
-- **Version:** Python 3.7+ required
-- **Key packages:** statsmodels, pandas, numpy, scipy, sklearn
-- **Environment:** Anaconda/Spyder recommended for compatibility
+- **Version:** Python 3.11 (see `environment.yml`)
+- **Key packages:** statsmodels, pandas, numpy, scipy, scikit-learn, miceforest, pyreadstat (full list in `requirements.txt`)
+- **Environment:** `conda env create -f environment.yml` (recommended) or `pip install -r requirements.txt`
 
 ### Code Organization
 ```python
@@ -139,7 +141,8 @@ For complete methodological details, refer to the published preprint:
 
 ### Version History
 - **v1.0:** Initial analysis for preprint submission
-- **Future versions:** Will be documented here as analyses are updated
+- **v1.1:** Repository aligned with the published article (11-05-2026)
+- See [CHANGELOG.md](../CHANGELOG.md) for details
 
 ### Change Log
 - All substantial changes to methodology or analysis code will be documented

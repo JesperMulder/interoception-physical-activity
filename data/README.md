@@ -67,11 +67,11 @@ The original dataset has been protected through:
 If you have access to the dataset, ensure:
 
 1. **File naming:** Save your SPSS file as `dataset.sav` in this directory
-2. **Update file_path:** Update the path to your file in the script ('data/your_dataset.sav')
-2. **Variable names:** Must match exactly as listed above (case-sensitive)
-3. **Missing data:** Use SPSS system missing (not numeric codes like -999)
-4. **Data types:** Ensure numeric variables are properly formatted
-5. **Value labels:** Optional but recommended for categorical variables
+2. **Update `file_path`:** Set the `file_path` variable near the top of `interoception_PA_analyses.py` to the location of your file (e.g. `data/dataset.sav`)
+3. **Variable names:** Must match exactly as listed above (case-sensitive)
+4. **Missing data:** Use SPSS system missing (not numeric codes like -999)
+5. **Data types:** Ensure numeric variables are properly formatted
+6. **Value labels:** Optional but recommended for categorical variables
 
 ---
 

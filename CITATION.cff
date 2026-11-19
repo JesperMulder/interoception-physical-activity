@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying article."
+title: "Analysis code: Associations Between Physical Activity Intensity and Experience, Self-Regulation, and Self-Reported Interoceptive Accuracy and Attention"
+type: software
+authors:
+  - family-names: Mulder
+    given-names: Jesper
+    affiliation: Leiden University Medical Center
+  - family-names: Kiefte-de Jong
+    given-names: J.C.
+  - family-names: de Vries
+    given-names: J.D.
+  - family-names: Elferink-Gemser
+    given-names: M.T.
+repository-code: "https://github.com/JesperMulder/interoception-physical-activity"
+license: MIT
+date-released: 2026-05-11
+preferred-citation:
+  type: article
+  title: "Associations Between Physical Activity Intensity and Experience, Self-Regulation, and Self-Reported Interoceptive Accuracy and Attention"
+  authors:
+    - family-names: Mulder
+      given-names: J.
+    - family-names: Kiefte-de Jong
+      given-names: J.C.
+    - family-names: de Vries
+      given-names: J.D.
+    - family-names: Elferink-Gemser
+      given-names: M.T.
+  year: 2026
+  doi: "10.1080/1612197X.2026.2665662"
