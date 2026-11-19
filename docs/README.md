@@ -2,29 +2,16 @@
 
 This directory contains additional documentation and methodological details for the interoception and physical activity analysis.
 
-## 📚 Contents
+## Contents
 
-This documentation supplements the main analysis code and provides detailed information about:
+This documentation supplements the analysis script with:
 
-### 📖 Methodological Details
-- Statistical analysis procedures
-- Variable definitions and coding schemes  
-- Data collection procedures
-- Analytical decision rationale
+- Variable definitions and coding
+- The statistical approach and analytical decisions
+- Software and reproducibility notes
+- Quality control measures
 
-### 🔬 Study Design Information
-- Participant recruitment and inclusion criteria
-- Questionnaire administration procedures
-- Physical activity measurement protocols
-- Data quality control measures
-
-### 📊 Analysis Documentation
-- Step-by-step analysis workflow
-- Software version specifications
-- Reproducibility guidelines
-- Code annotation and explanations
-
-## 📄 Key Documents
+## Key Documents
 
 ### Study Methodology
 For complete methodological details, refer to the published article:
@@ -59,7 +46,7 @@ An earlier version of the manuscript is available as a preprint: https://doi.org
 
 #### Model Building Strategy
 1. **Univariate models:** Test each predictor individually
-2. **Model 1:** Dependent and independent variables
+2. **Model 1:** Walking, moderate and vigorous hours, years of PA experience and self-regulation (SSRQ)
 3. **Model 2:** Stepwise addition of confounding variables
 4. **Interaction models:** PA intensity × self-regulation interactions
 5. **Sensitivity analyses:** Median split by self-regulation level
@@ -74,7 +61,7 @@ An earlier version of the manuscript is available as a preprint: https://doi.org
 - **Variables:** Applied to key outcome and predictor variables
 - **Rationale:** Remove extreme values that could distort regression estimates
 
-## 🔍 Analytical Decisions
+## Analytical Decisions
 
 ### Sample Size Considerations
 - **Final N:** Determined after missing data imputation and outlier removal
@@ -91,7 +78,7 @@ An earlier version of the manuscript is available as a preprint: https://doi.org
 - **Adjusted R²:** Variance explained accounting for model complexity
 - **Cross-validation:** Internal validation using k-fold procedures
 
-## 🛠️ Software and Reproducibility
+## Software and Reproducibility
 
 ### Python Environment
 - **Version:** Python 3.11 (see `environment.yml`)
@@ -119,7 +106,7 @@ An earlier version of the manuscript is available as a preprint: https://doi.org
 - [ ] Output files systematically organized
 - [ ] Code comments explain analytical decisions
 
-## 📊 Quality Control Measures
+## Quality Control Measures
 
 ### Data Validation
 - **Range checks:** Verify all variables within expected ranges
@@ -137,7 +124,7 @@ An earlier version of the manuscript is available as a preprint: https://doi.org
 - **Subgroup analyses:** Split by demographic characteristics
 - **Robustness checks:** Alternative outlier thresholds
 
-## 🔄 Updates and Versions
+## Updates and Versions
 
 ### Version History
 - **v1.0:** Initial analysis for preprint submission
@@ -146,9 +133,4 @@ An earlier version of the manuscript is available as a preprint: https://doi.org
 
 ### Change Log
 - All substantial changes to methodology or analysis code will be documented
-- Version control through Git ensures full audit trail
 - Reproducible analysis pipeline maintains consistency
-
----
-
-**Note:** This documentation is designed to support transparent and reproducible research. All methodological decisions are justified and documented to enable proper interpretation and potential replication of results.

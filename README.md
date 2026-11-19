@@ -7,22 +7,22 @@
 
 Analysis code for the research paper: **"Associations Between Physical Activity Intensity and Experience, Self-Regulation, and Self-Reported Interoceptive Accuracy and Attention"**
 
-## 📄 Publication Information
+## Publication Information
 
 **Publication:** https://doi.org/10.1080/1612197X.2026.2665662 (published 11-05-2026)
 
 **Authors:** J. Mulder, J.C. Kiefte-de Jong, J.D. de Vries, M.T. Elferink-Gemser
 
-## 🎯 Research Objectives
+## Research Objectives
 
-This analysis examines associations between:
+The script tests how these variables relate to interoception:
 
 1. **Physical activity intensities** (walking, moderate, vigorous exercise)
 2. **Years of PA experience**
 3. **Self-regulation abilities** (SSRQ)
 4. **Self-reported interoceptive accuracy** (IAS) and **attention** (IATS)
 
-## 🔧 Requirements
+## Requirements
 
 * **Python 3.11**
 * Conda environment (`environment.yml`, recommended) or pip (`requirements.txt`)
@@ -49,7 +49,7 @@ or, with pip:
 pip install -r requirements.txt
 ```
 
-## 🚀 Usage
+## Usage
 
 1. **Prepare your data:** Place your SPSS dataset in the `data/` directory (see `data/README.md`)
 2. **Set the data path:** Edit the `file_path` variable near the top of `interoception_PA_analyses.py` (it is intentionally left blank)
@@ -66,7 +66,7 @@ python interoception_PA_analyses.py
 * Complete analysis: ~5-10 minutes
 * Generates 8 output files including statistical results and visualizations
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 interoception-physical-activity/
@@ -88,7 +88,7 @@ interoception-physical-activity/
     └── README.md           # Additional documentation
 ```
 
-## 📈 Generated Outputs
+## Generated Outputs
 
 The analysis produces the following files in `output/`:
 
@@ -98,7 +98,7 @@ The analysis produces the following files in `output/`:
 * `lognorm_results.xlsx` - Main regression analyses (univariate, multivariate, stepwise)
 * `lognorm_interaction_results.xlsx` - Analyses with PA × self-regulation interactions
 * `lognorm_results_by_SSRQ.xlsx` - Sensitivity analyses by self-regulation levels
-* `descriptive_table.xlsx` - Comprehensive descriptive statistics
+* `descriptive_table.xlsx` - Descriptive statistics
 
 ### Visualizations
 
@@ -106,7 +106,7 @@ The analysis produces the following files in `output/`:
 * `categorical_variables_histograms.png` - Distribution plots for categorical variables
 * `correlation_matrix.png` - Correlation heatmap for all continuous measures
 
-## 🔍 Analysis Pipeline
+## Analysis Pipeline
 
 1. **Data Loading & Preprocessing**
 
@@ -128,7 +128,7 @@ The analysis produces the following files in `output/`:
    * Reliability interpretation and reporting
 5. **Descriptive Statistics**
 
-   * Comprehensive summary statistics for all variables
+   * Summary statistics for all variables
    * Age, sex, and socioeconomic status distributions
    * Correlation analysis between continuous measures
 6. **Main Regression Analyses**
@@ -146,7 +146,7 @@ The analysis produces the following files in `output/`:
    * Median split based on self-regulation scores
    * Separate analyses for high vs. low self-regulation groups
 
-## 📋 Variables Analyzed
+## Variables Analyzed
 
 ### Outcome Variables
 
@@ -167,13 +167,13 @@ The analysis produces the following files in `output/`:
 * **Leeftijd:** Age in years
 * **SES:** Socioeconomic status (1=low, 2=high)
 
-## 🔒 Data Privacy
+## Data Privacy
 
 **Important:** Raw data is **not included** in this repository to protect participant privacy and comply with ethical guidelines. The analysis script is provided for transparency and reproducibility of statistical methods.
 
 For data access requests or replication purposes, please contact the corresponding author.
 
-## 📖 Citation
+## Citation
 
 If you use this code in your research, please cite:
 
@@ -183,7 +183,7 @@ Mulder, J., Kiefte-de Jong, J. C., de Vries, J. D., & Elferink-Gemser, M. T. (20
 
 GitHub's "Cite this repository" button uses `CITATION.cff`. An earlier preprint version is available at https://doi.org/10.1101/2025.05.06.25326015.
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 

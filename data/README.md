@@ -2,11 +2,11 @@
 
 This directory contains the research dataset for the interoception and physical activity study.
 
-## ⚠️ Important Notice
+## Data Not Included
 
-**Data is not included in this repository** to protect participant privacy and comply with ethical guidelines established by the institutional review board.
+**We do not include the data in this repository**, to protect participant privacy.
 
-## 📋 Expected Data Structure
+## Expected Data Structure
 
 The analysis script expects an SPSS file (`.sav` format) with the following variables:
 
@@ -38,7 +38,7 @@ For internal consistency calculations, the script also expects individual questi
 - **IATS items:** `IATS_1` through `IATS_21` (21 items)  
 - **SSRQ items:** `SSRQ_1` through `SSRQ_31` (31 items)
 
-## 📂 File Requirements
+## File Requirements
 
 ### Expected File Structure
 ```
@@ -52,7 +52,7 @@ data/
 - **Encoding:** UTF-8 recommended
 - **Missing values:** Should be coded as system missing (blank) in SPSS
 
-## 🔒 Privacy
+## Privacy
 
 ### Privacy Protection Measures
 
@@ -62,7 +62,7 @@ The original dataset has been protected through:
 - **Location anonymization:** No geographic identifiers included
 - **Ethical approval:** Study conducted under institutional review board oversight
 
-## 🔧 Data Preparation Notes
+## Data Preparation Notes
 
 If you have access to the dataset, ensure:
 
